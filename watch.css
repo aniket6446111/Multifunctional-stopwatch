@@ -1,0 +1,119 @@
+*{
+    background-color:#40739e;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+h1{
+    color: rgb(210, 230, 231);
+}
+p{
+    color: white;
+}
+.buttons{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+button{
+    margin: 5px;
+    padding: 10px 25px;
+    outline: none;
+    color: white;
+    letter-spacing: 2px;
+    background: transparent;
+    border: none;
+    /* border: 1px solid white; */
+    box-shadow:inset 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 45%;
+    /* transition: all 0.5s ease-in-out; */
+}
+#lap{
+    padding: 10px 135px;
+    border-radius: 10%;
+}
+#rlap{
+    padding: 10px 112px;
+    border-radius: 10%;
+}
+#rest{
+    font-weight:bolder;
+    font-size: 16px;
+}
+button:hover:focus:active{
+    box-shadow:-5px -5px 10px rgba(0,0,0,0.5),5px 5px 10px rgba(0,0,0,0.5);
+    background: #5b8eb8;
+}
+.stopwatch{
+    color: #dcdde1;
+    font-size: 100px;
+}
+ul{
+    padding-top: 40px;
+}
+ul li{
+    position:relative;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 0px 90px;
+    transition: all 0.1s ease-in-out;
+    letter-spacing: 5px;
+}
+ul li:hover{
+    background-color: thistle;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5),-5px -5px 10px rgba(0,0,0,0.5);
+}
+@media screen and (max-width:430px){
+    h1{
+        font-size: 20px;
+    }
+    button{
+    margin: 5px;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    letter-spacing: 2px;
+    background: transparent;
+    border: none;
+    box-shadow:inset 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 45%;
+    }
+    #lap{
+        padding: 10px 112px;
+        border-radius: 10%;
+    }
+    #rlap{
+        padding: 10px 91px;
+        border-radius: 10%;
+    }
+    .stopwatch{
+        color: #dcdde1;
+        font-size: 65px;
+    }
+    ul li{
+    position:relative;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 0px 50px;
+    transition: all 0.1s ease-in-out;
+    letter-spacing: 5px;
+
+    }
+   
+}

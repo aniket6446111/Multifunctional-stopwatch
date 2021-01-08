@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multifunctional stopwatch</title>
+    <link rel="stylesheet" href="watch.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Multifunctional stopwatch</h1>
+    <p>Made by -- ANIVER VERMA</p>
+    <div class="buttons">
+        <button onclick="start()" class="fa fa-play"></button>
+        <button onclick="pause()" class="fa fa-pause-circle"></button>
+        <button onclick="reset()" class="fa fa-trash-o"></button>
+        <button onclick="restart()" id="rest" >&#8634;</button><br>
+        <button onclick="laps()" id="lap">Laps</button><br>
+        <button onclick="resetlaps()" id="rlap">Reset laps</button>
+    </div>
+    <div class="stopwatch">00:00:00</div>
+    <ul class="laps"></ul>
+
+
+
+
+
+
+
+    <!-- ------------JAVASCRIPT-------------- -->
+    <script type="text/javascript" src="watch.js"></script>
+
+</body>
+
+</html>
